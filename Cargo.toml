@@ -1,0 +1,23 @@
+[package]
+name = "bevy_mod_console_debug"
+description = "Bevy plugin using ratatui for rich console debug"
+keywords = ["game", "tool", "bevy"]
+license = "MIT OR MIT-0 OR Apache-2.0"
+authors = ["Mike Hsu <mike.hsu@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+homepage = "https://github.com/hymm/bevy_mod_console_debug"
+repository = "https://github.com/hymm/bevy_mod_console_debug"
+documentation = "https://docs.rs/bevy_mod_console_debug"
+
+[dependencies]
+bevy = {version = "0.11", default_features = false}
+ratatui = "0.22.0"
+
+[dev-dependencies]
+bevy = "0.11"
+
+[[example]]
+name="example"
+path="examples/example.rs"
